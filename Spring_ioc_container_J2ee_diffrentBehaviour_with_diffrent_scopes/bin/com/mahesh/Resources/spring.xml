@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<!-- j2ee container madhe scope=singleton manaje 1.read spring.xml,2.create 
+	object -->
+<beans>
+	<!-- <bean id="t1" class="com.mahesh.Employee.Employee" scope="singleton"></bean> -->
+
+	<!-- j2ee container madhe scope=Prototype 1.read spring.xml,2. getBean manaje 
+		request keli tar object tayar karnar. -->
+	<bean id="t1" class="com.mahesh.Employee.Employee" scope="prototype"></bean>
+</beans>			
